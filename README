@@ -1,1 +1,25 @@
 This is a block-falling game similar to Tetris. I started it because I'm curios how TDD applies to games.
+
+Blocks falling in a slim well v0.1:
+* The well is one block wide
+* Blocks fall down from the top all the way to the bottom
+* The game ends when the blocks stack over each other and reach the top
+
+Movable blocks falling in a well v0.2:
+* The well is 10 blocks wide
+* Blocks fall down from the top to the bottom
+* Player can move blocks left and right
+* The game ends when the blocks stack over each other and reach the top
+
+Lines disappear v0.3:
+* Same as v0.2
+* Whenever a line is formed, it disappears and gets counted
+
+Real pieces v0.4:
+* Replace the blocks with I pieces
+
+Pieces can rotate v0.4:
+* Add rotation
+
+All pieces v0.5:
+* Add J, L, O, S, T, Z
